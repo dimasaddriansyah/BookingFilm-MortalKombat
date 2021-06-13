@@ -81,79 +81,37 @@ class BookingPage extends StatelessWidget {
                     children: [
                       Row(
                         children: [
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: whiteColor,
-                            ),
-                            child: Text(
-                              'Apr',
-                              style:
-                                  subtitleTextStyle.copyWith(color: mainColor),
-                            ),
+                          ListMonth(
+                            name: 'Apr',
+                            active: false,
                           ),
                           SizedBox(
                             width: 16,
                           ),
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: whiteColor,
-                            ),
-                            child: Text(
-                              'Mei',
-                              style:
-                                  subtitleTextStyle.copyWith(color: mainColor),
-                            ),
+                          ListMonth(
+                            name: 'Mei',
+                            active: false,
                           ),
                           SizedBox(
                             width: 16,
                           ),
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: blueColor,
-                            ),
-                            child: Text(
-                              'Jun',
-                              style: subtitleTextStyle.copyWith(
-                                color: whiteColor,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
+                          ListMonth(
+                            name: 'Jun',
+                            active: true,
                           ),
                           SizedBox(
                             width: 16,
                           ),
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: whiteColor,
-                            ),
-                            child: Text(
-                              'Jul',
-                              style:
-                                  subtitleTextStyle.copyWith(color: mainColor),
-                            ),
+                          ListMonth(
+                            name: 'Jul',
+                            active: false,
                           ),
                           SizedBox(
                             width: 16,
                           ),
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: whiteColor,
-                            ),
-                            child: Text(
-                              'Aug',
-                              style:
-                                  subtitleTextStyle.copyWith(color: mainColor),
-                            ),
+                          ListMonth(
+                            name: 'Aug',
+                            active: false,
                           ),
                         ],
                       ),
@@ -162,94 +120,44 @@ class BookingPage extends StatelessWidget {
                       ),
                       Row(
                         children: [
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: whiteColor,
-                            ),
-                            child: Text(
-                              '19',
-                              style:
-                                  subtitleTextStyle.copyWith(color: mainColor),
-                            ),
+                          ListDate(
+                            name: '19',
+                            active: false,
                           ),
                           SizedBox(
                             width: 16,
                           ),
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: whiteColor,
-                            ),
-                            child: Text(
-                              '20',
-                              style:
-                                  subtitleTextStyle.copyWith(color: mainColor),
-                            ),
+                          ListDate(
+                            name: '20',
+                            active: false,
                           ),
                           SizedBox(
                             width: 16,
                           ),
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: whiteColor,
-                            ),
-                            child: Text(
-                              '21',
-                              style:
-                                  subtitleTextStyle.copyWith(color: mainColor),
-                            ),
+                          ListDate(
+                            name: '21',
+                            active: false,
                           ),
                           SizedBox(
                             width: 16,
                           ),
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: blueColor,
-                            ),
-                            child: Text(
-                              '22',
-                              style: subtitleTextStyle.copyWith(
-                                color: whiteColor,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
+                          ListDate(
+                            name: '22',
+                            active: true,
                           ),
                           SizedBox(
                             width: 16,
                           ),
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: whiteColor,
-                            ),
-                            child: Text(
-                              '23',
-                              style:
-                                  subtitleTextStyle.copyWith(color: mainColor),
-                            ),
+                          ListDate(
+                            name: '23',
+                            active: false,
                           ),
                           SizedBox(
                             width: 16,
                           ),
-                          Container(
-                            padding: EdgeInsets.fromLTRB(8, 6, 8, 6),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: whiteColor,
-                            ),
-                            child: Text(
-                              '24',
-                              style:
-                                  subtitleTextStyle.copyWith(color: mainColor),
-                            ),
+                          ListDate(
+                            name: '24',
+                            active: false,
                           ),
                         ],
                       ),
